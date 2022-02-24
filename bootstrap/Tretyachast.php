@@ -1,28 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашнее задание</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        .col-md-1{
-            background-color: black;
-            color: aliceblue;
-            border: 1px solid #000;
-        }
-        .col-md-10{
-            background-color: darkcyan;
-            color: aliceblue;
-            border: 1px solid #000;
-        }
-        .col-md-1{
-            background-color: cadetblue;
-            color: aliceblue;
-            border: 1px solid #000;
-        }
-    </style>
+<?php require 'homework/bootstrap'
+</style>
 </head>
 <body>
     <div class="container">
