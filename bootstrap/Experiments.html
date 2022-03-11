@@ -1,0 +1,23 @@
+<!DOCTYPE html><html>
+    <head>
+    <script src="http://code.jquery.com/jquery-latest.js">
+    </script>
+    <script>
+     $(document).ready(function () {
+     $("#but1").click(function () {
+     $("#test").hide();
+     });
+     $("#but2").click(function () {
+     $("#test").show();
+     });
+     });
+    </script>
+    </head>
+    <body>
+    <h2>Задание</h2>
+    <p>Кнопка слева для закрытия элемента</p>
+    <p id="test">Кнопка справа для отображения закрытого элемента</p>
+    <button id="but1">Нажми чтобы скрыть</button>
+    <button id="but2">Нажмы чтобы отобразить</button>
+    </body>
+    </html>
